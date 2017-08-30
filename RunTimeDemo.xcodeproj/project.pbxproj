@@ -12,6 +12,9 @@
 		6FC932511F565E2500C9952F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9324F1F565E2500C9952F /* Main.storyboard */; };
 		6FC932531F565E2500C9952F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC932521F565E2500C9952F /* Assets.xcassets */; };
 		6FC932561F565E2500C9952F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC932541F565E2500C9952F /* LaunchScreen.storyboard */; };
+		6FC932641F565E5800C9952F /* UIButton+Statistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9325F1F565E5800C9952F /* UIButton+Statistical.m */; };
+		6FC932651F565E5800C9952F /* UITableView+Statisical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC932611F565E5800C9952F /* UITableView+Statisical.m */; };
+		6FC932661F565E5800C9952F /* UIViewController+Statistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC932631F565E5800C9952F /* UIViewController+Statistical.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,12 @@
 		6FC932521F565E2500C9952F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FC932551F565E2500C9952F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FC932571F565E2500C9952F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC9325E1F565E5800C9952F /* UIButton+Statistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Statistical.h"; sourceTree = "<group>"; };
+		6FC9325F1F565E5800C9952F /* UIButton+Statistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Statistical.m"; sourceTree = "<group>"; };
+		6FC932601F565E5800C9952F /* UITableView+Statisical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Statisical.h"; sourceTree = "<group>"; };
+		6FC932611F565E5800C9952F /* UITableView+Statisical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Statisical.m"; sourceTree = "<group>"; };
+		6FC932621F565E5800C9952F /* UIViewController+Statistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Statistical.h"; sourceTree = "<group>"; };
+		6FC932631F565E5800C9952F /* UIViewController+Statistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Statistical.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +66,25 @@
 				6FC9324B1F565E2500C9952F /* AppDelegate.swift */,
 				6FC9324D1F565E2500C9952F /* ViewController.swift */,
 				6FC9324F1F565E2500C9952F /* Main.storyboard */,
+				6FC9325D1F565E5800C9952F /* Tool */,
 				6FC932521F565E2500C9952F /* Assets.xcassets */,
 				6FC932541F565E2500C9952F /* LaunchScreen.storyboard */,
 				6FC932571F565E2500C9952F /* Info.plist */,
 			);
 			path = RunTimeDemo;
+			sourceTree = "<group>";
+		};
+		6FC9325D1F565E5800C9952F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9325E1F565E5800C9952F /* UIButton+Statistical.h */,
+				6FC9325F1F565E5800C9952F /* UIButton+Statistical.m */,
+				6FC932601F565E5800C9952F /* UITableView+Statisical.h */,
+				6FC932611F565E5800C9952F /* UITableView+Statisical.m */,
+				6FC932621F565E5800C9952F /* UIViewController+Statistical.h */,
+				6FC932631F565E5800C9952F /* UIViewController+Statistical.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC932651F565E5800C9952F /* UITableView+Statisical.m in Sources */,
 				6FC9324E1F565E2500C9952F /* ViewController.swift in Sources */,
+				6FC932661F565E5800C9952F /* UIViewController+Statistical.m in Sources */,
+				6FC932641F565E5800C9952F /* UIButton+Statistical.m in Sources */,
 				6FC9324C1F565E2500C9952F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
